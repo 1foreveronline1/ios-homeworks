@@ -14,7 +14,7 @@
             <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Nm-ks-ywO">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C41FD8B3-C18F-4CC6-9949-7FFD2C3F0832" translatesAutoresizingMaskIntoConstraints="NO" id="4Nm-ks-ywO">
                     <rect key="frame" x="0.0" y="54" width="181" height="181"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -51,10 +51,18 @@
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea" propertyAccessControl="all"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="profileDate" destination="P4X-sI-jPL" id="uNN-VY-71H"/>
+                <outlet property="profileName" destination="TOf-r5-Ihz" id="evv-jU-41K"/>
+                <outlet property="profilePicture" destination="4Nm-ks-ywO" id="P1f-3b-JTW"/>
+                <outlet property="profilelocation" destination="Ili-un-j9m" id="Im6-p1-JU2"/>
+                <outlet property="textField" destination="CXY-q6-hHb" id="zZY-4f-dXf"/>
+            </connections>
             <point key="canvasLocation" x="136.80000000000001" y="107.49625187406298"/>
         </view>
     </objects>
     <resources>
+        <image name="C41FD8B3-C18F-4CC6-9949-7FFD2C3F0832" width="827" height="1024"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
