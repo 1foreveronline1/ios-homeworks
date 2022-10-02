@@ -13,6 +13,7 @@
 		65FD60F428E9A43700F2433F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FD60F228E9A43700F2433F /* Main.storyboard */; };
 		65FD60F628E9A43700F2433F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FD60F528E9A43700F2433F /* Assets.xcassets */; };
 		65FD60F928E9A43700F2433F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FD60F728E9A43700F2433F /* LaunchScreen.storyboard */; };
+		65FD610128E9B09000F2433F /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65FD610028E9B09000F2433F /* ProfileView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		65FD60F528E9A43700F2433F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65FD60F828E9A43700F2433F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65FD60FA28E9A43700F2433F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FD610028E9B09000F2433F /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				65FD60F528E9A43700F2433F /* Assets.xcassets */,
 				65FD60F728E9A43700F2433F /* LaunchScreen.storyboard */,
 				65FD60FA28E9A43700F2433F /* Info.plist */,
+				65FD610028E9B09000F2433F /* ProfileView.xib */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FD610128E9B09000F2433F /* ProfileView.xib in Resources */,
 				65FD60F928E9A43700F2433F /* LaunchScreen.storyboard in Resources */,
 				65FD60F628E9A43700F2433F /* Assets.xcassets in Resources */,
 				65FD60F428E9A43700F2433F /* Main.storyboard in Resources */,
